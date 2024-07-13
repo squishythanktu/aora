@@ -6,7 +6,7 @@ import { useColorScheme } from "@/hooks/useColorScheme";
 import icons from "@/constants/icons";
 import { View, Image, Text } from "react-native";
 
-const TabIcon = ({ icon, color, name, focused }) => {
+const TabIcon = ({ icon, color, name, focused }: any) => {
   return (
     <View className="flex items-center justify-center gap-2">
       <Image
