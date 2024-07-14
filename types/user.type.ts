@@ -3,3 +3,10 @@ export type User = {
   email: string;
   password: string;
 };
+
+export type UserResponse = {
+  accoundId: string;
+  avatar: string;
+  email: string;
+  username: string;
+};
