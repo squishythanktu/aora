@@ -1,7 +1,7 @@
 import { Alert } from "react-native";
 import { useEffect, useState } from "react";
 
-export default function useAppwrite(fn: Function) {
+export default function useAppwrite(fn: any) {
   const [data, setData] = useState<any[]>([]);
   const [isLoading, setIsLoading] = useState(false);
 
